@@ -1,4 +1,4 @@
-![Alt text](Terraform-Ecommerce-Architecture.png)
+![Alt text](Terraform-Ecommerce-Architecture.jpg)
 
 
 ---
