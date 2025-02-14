@@ -9,6 +9,7 @@
 
 This project involves hosting a dynamic website on Amazon Web Services (AWS) as part of a DevOps initiative, utilizing Terraform for the provisioning of infrastructure. A GitHub repository containing the reference diagram and deployment scripts has been created.
 
+---
 ## Architecture and Configuration
 
 ### **Networking and Security**
