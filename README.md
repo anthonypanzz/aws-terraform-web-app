@@ -14,7 +14,14 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 ### **Networking and Security**
 
 1. **Virtual Private Cloud (VPC):** The infrastructure includes a configured VPC with both public and private subnets spanning two availability zones.
+![Screenshot 2025-02-14 121712](https://github.com/user-attachments/assets/8f392c65-d2c1-4baf-b1f0-82f4b0fde850)
+![Screenshot 2025-02-14 121801](https://github.com/user-attachments/assets/a9409a41-e645-4f1f-bf74-3a87a5e475f6)
+![Screenshot 2025-02-14 121815](https://github.com/user-attachments/assets/ddffa296-8e1d-409c-8d84-380c7fd5a2a5)
+![Screenshot 2025-02-14 121835](https://github.com/user-attachments/assets/c3e76dd7-5faa-4d0a-8174-1043db7fc2d2)
+---
 2. **Internet Gateway:** An Internet Gateway has been deployed to facilitate connectivity between the VPC instances and the broader internet.
+![Screenshot 2025-02-14 121712](https://github.com/user-attachments/assets/ed5b8b5d-189d-4ccc-a445-123b708b1462)
+---
 3. **Security Groups:** Security Groups have been established to function as a network firewall mechanism.
 4. **Availability Zones:** The architecture leverages two Availability Zones to enhance system reliability and fault tolerance.
 5. **Public Subnets:** Public subnets are utilized for critical infrastructure components, including the NAT Gateway and Application Load Balancer.
