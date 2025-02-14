@@ -45,7 +45,7 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 13. **Secure Communications:** Application communications are secured using AWS Certificate Manager.
 14. **Monitoring and Alerts:** Simple Notification Service (SNS) has been configured to provide alerts regarding activities within the Auto Scaling Group.
 
-### **Domain Name:**
+### **Domain Name**
 
 15. **Domain Registration and DNS Configuration:** The domain name has been registered, and a DNS record has been established using Amazon Route 53.
 
