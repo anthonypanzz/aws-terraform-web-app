@@ -48,7 +48,8 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 ### **Domain and Storage**
 
 15. **Domain Registration and DNS Configuration:** The domain name has been registered, and a DNS record has been established using Amazon Route 53.
-16. **Amazon S3:** Used to store application code.
+
+---
 
 ## Deployment Instructions
 
