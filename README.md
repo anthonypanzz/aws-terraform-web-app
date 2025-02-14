@@ -1,3 +1,8 @@
+![Alt text](/Terraform-Ecommerce-Architecture.png)
+
+
+---
+
 # Dynamic Website Deployment on AWS Using Terraform
 
 ## Project Overview
