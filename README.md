@@ -29,7 +29,11 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 6. **EC2 Instance Connect Endpoint:** An EC2 Instance Connect Endpoint has been implemented to ensure secure connections to resources located within both public and private subnets.
 7. **Web Server Security:** Web servers, implemented as EC2 instances, are positioned within private subnets to enhance security.
 8. **Internet Access for Private Subnets:** Instances located in both the private application and data subnets are permitted internet access via the NAT Gateway.
-
+![Screenshot 2025-02-14 141326](https://github.com/user-attachments/assets/a00eed87-8160-4806-94c0-a3267ca82d76)
+![Screenshot 2025-02-14 141341](https://github.com/user-attachments/assets/d31dc89d-6faf-4d0c-afa7-66c157b45fc6)
+![Screenshot 2025-02-14 141404](https://github.com/user-attachments/assets/00b8cdfa-3525-45d0-ae4f-61acf3b642e4)
+![Screenshot 2025-02-14 141436](https://github.com/user-attachments/assets/a1285f27-af21-42ed-9717-e0faf1ef9da1)
+---
 ### **Compute and Scalability**
 
 9. **Website Hosting:** The website is hosted on EC2 instances.
