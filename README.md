@@ -70,7 +70,7 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 ![Screenshot 2025-02-17 043541](https://github.com/user-attachments/assets/aa0cbe7e-23e9-499e-8f86-93f4e3c5bf5a)
 ![Screenshot 2025-02-17 043552](https://github.com/user-attachments/assets/afef31e8-c4dd-453e-9786-13727720d686)
 ![Screenshot 2025-02-17 043609](https://github.com/user-attachments/assets/19b55396-8c5a-41b2-a37f-6884457a85ab)
-![Screenshot 2025-02-17 043623](https://github.com/user-attachments/assets/fe60a0a2-3664-4215-9b44-d30846d17e24)
+![Screenshot 2025-02-17 045246](https://github.com/user-attachments/assets/e6cd2538-a9ff-49ea-a022-9d66943e495e)
 
 ## Deployment Instructions
 
