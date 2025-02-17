@@ -72,6 +72,12 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 ![Screenshot 2025-02-17 043609](https://github.com/user-attachments/assets/19b55396-8c5a-41b2-a37f-6884457a85ab)
 ![Screenshot 2025-02-17 045246](https://github.com/user-attachments/assets/e6cd2538-a9ff-49ea-a022-9d66943e495e)
 
+## **Terraform Apply**
+![Screenshot 2025-02-17 060258](https://github.com/user-attachments/assets/a314a8bf-2598-4e27-b400-d7de250f2300)
+![Screenshot 2025-02-17 060400](https://github.com/user-attachments/assets/df663462-7ce2-4862-b8f1-505606aebdd6)
+![Screenshot 2025-02-17 060427](https://github.com/user-attachments/assets/9ed5d4fa-2c05-4ce8-8b1a-db19f4690b5d)
+
+---
 ## Deployment Instructions
 
 1. Clone the GitHub repository:
