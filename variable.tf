@@ -107,7 +107,7 @@ variable "ec2_instance_type" {
 }
 
 variable "ec2_key_pair_name" {
-  default       = "myec2ppk"
+  default       = "keypair"
   description   = "name of ec2 key pair"
   type          = string
 }
