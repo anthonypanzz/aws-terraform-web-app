@@ -24,11 +24,15 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 ![Screenshot 2025-02-14 121712](https://github.com/user-attachments/assets/ed5b8b5d-189d-4ccc-a445-123b708b1462)
 ---
 3. **Security Groups:** Security Groups have been established to function as a network firewall mechanism.
+![Screenshot 2025-02-16 072356](https://github.com/user-attachments/assets/53426715-c438-42f0-a8dd-bd7041f21644)
+![Screenshot 2025-02-16 072413](https://github.com/user-attachments/assets/70b7cb89-8dd0-42d0-9be0-49623ce19279)
+![Screenshot 2025-02-16 072439](https://github.com/user-attachments/assets/7f4169be-f742-43c7-8b48-f1297effcdf7)
+![Screenshot 2025-02-16 072454](https://github.com/user-attachments/assets/5206fb32-a497-4b11-9eef-22e70eaf68db)
+---
 4. **Availability Zones:** The architecture leverages two Availability Zones to enhance system reliability and fault tolerance.
 5. **Public Subnets:** Public subnets are utilized for critical infrastructure components, including the NAT Gateway and Application Load Balancer.
-6. **EC2 Instance Connect Endpoint:** An EC2 Instance Connect Endpoint has been implemented to ensure secure connections to resources located within both public and private subnets.
-7. **Web Server Security:** Web servers, implemented as EC2 instances, are positioned within private subnets to enhance security.
-8. **Internet Access for Private Subnets:** Instances located in both the private application and data subnets are permitted internet access via the NAT Gateway.
+6. **Web Server Security:** Web servers, implemented as EC2 instances, are positioned within private subnets to enhance security.
+7. **Internet Access for Private Subnets:** Instances located in both the private application and data subnets are permitted internet access via the NAT Gateway.
 ![Screenshot 2025-02-14 141326](https://github.com/user-attachments/assets/a00eed87-8160-4806-94c0-a3267ca82d76)
 ![Screenshot 2025-02-14 141341](https://github.com/user-attachments/assets/d31dc89d-6faf-4d0c-afa7-66c157b45fc6)
 ![Screenshot 2025-02-14 141404](https://github.com/user-attachments/assets/00b8cdfa-3525-45d0-ae4f-61acf3b642e4)
@@ -36,24 +40,37 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 ---
 ### **Compute and Scalability**
 
-9. **Website Hosting:** The website is hosted on EC2 instances.
-10. **Load Balancing:** An Application Load Balancer, along with a target group, has been employed to distribute web traffic evenly to an Auto Scaling Group of EC2 instances across multiple Availability Zones.
-11. **Auto Scaling:** An Auto Scaling Group has been utilized to automatically manage EC2 instances, thereby ensuring website availability, scalability, fault tolerance, and elasticity.
-
+8. **Website Hosting:** The website is hosted on EC2 instances.
+9. **Load Balancing:** An Application Load Balancer, along with a target group, has been employed to distribute web traffic evenly to an Auto Scaling Group of EC2 instances across multiple Availability Zones.
+![Screenshot 2025-02-17 043241](https://github.com/user-attachments/assets/ff432a0d-4b56-450c-b629-37f6bfeca65d)
+![Screenshot 2025-02-17 043259](https://github.com/user-attachments/assets/be141917-0cfa-4628-ba8f-ef5e8320f759)
+![Screenshot 2025-02-17 043324](https://github.com/user-attachments/assets/b4a0061b-ad87-4a85-b38f-09f87202f941)
+---
+10. **Auto Scaling:** An Auto Scaling Group has been utilized to automatically manage EC2 instances, thereby ensuring website availability, scalability, fault tolerance, and elasticity.
+![Screenshot 2025-02-17 043451](https://github.com/user-attachments/assets/7d9e8abc-60c1-4792-a283-27dd3434aecf)
+![Screenshot 2025-02-17 043508](https://github.com/user-attachments/assets/e9480c64-dedb-4e51-b24a-086c9bb285d6)
+---
 ### **Database Management**
 
-12. **Amazon RDS:** A managed relational database service (Amazon RDS) is used to handle application data, ensuring high availability, security, and automatic backups.
-
+11. **Amazon RDS:** A managed relational database service (Amazon RDS) is used to handle application data, ensuring high availability, security, and automatic backups.
+![Screenshot 2025-02-16 072515](https://github.com/user-attachments/assets/57a46515-d77f-458e-8117-fc6e6cbd1a5e)
+---
 ### **Security and Monitoring**
 
-13. **Secure Communications:** Application communications are secured using AWS Certificate Manager.
-14. **Monitoring and Alerts:** Simple Notification Service (SNS) has been configured to provide alerts regarding activities within the Auto Scaling Group.
-
+12. **Monitoring and Alerts:** Simple Notification Service (SNS) has been configured to provide alerts regarding activities within the Auto Scaling Group.
+![Screenshot 2025-02-17 043419](https://github.com/user-attachments/assets/af5ec48d-4b68-45c0-ba55-75d79b476759)
+---
 ### **Domain Name**
-
-15. **Domain Registration and DNS Configuration:** The domain name has been registered, and a DNS record has been established using Amazon Route 53.
+13. **Secure Communications:** Application communications are secured using AWS Certificate Manager.
+14. **Domain Registration and DNS Configuration:** The domain name has been registered, and a DNS record has been established using Amazon Route 53.
+![Screenshot 2025-02-17 043522](https://github.com/user-attachments/assets/4c423789-6e17-41ff-837f-3774c3b7cde2)
 
 ---
+### **Outputs and Variables**
+![Screenshot 2025-02-17 043541](https://github.com/user-attachments/assets/aa0cbe7e-23e9-499e-8f86-93f4e3c5bf5a)
+![Screenshot 2025-02-17 043552](https://github.com/user-attachments/assets/afef31e8-c4dd-453e-9786-13727720d686)
+![Screenshot 2025-02-17 043609](https://github.com/user-attachments/assets/19b55396-8c5a-41b2-a37f-6884457a85ab)
+![Screenshot 2025-02-17 043623](https://github.com/user-attachments/assets/fe60a0a2-3664-4215-9b44-d30846d17e24)
 
 ## Deployment Instructions
 
