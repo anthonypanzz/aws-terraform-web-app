@@ -97,7 +97,7 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 
 ## Conclusion
 
-This project demonstrates a highly available, scalable, and secure architecture for hosting a dynamic website on AWS using best DevOps practices. By leveraging AWS services, we ensure seamless scalability, security, and efficient resource management.
+This project demonstrates a highly available, scalable, and secure architecture for hosting a dynamic website on AWS using best DevOps practices. By leveraging AWS services, I ensured seamless scalability, security, and efficient resource management.
 
 
 
