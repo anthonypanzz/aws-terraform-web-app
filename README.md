@@ -77,7 +77,7 @@ This project involves hosting a dynamic website on Amazon Web Services (AWS) as 
 ![Screenshot 2025-02-17 060427](https://github.com/user-attachments/assets/9ed5d4fa-2c05-4ce8-8b1a-db19f4690b5d)
 
 ---
-## Deployment Instructions
+## Deployment
 
 1. Clone the GitHub repository:
    ```sh
