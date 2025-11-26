@@ -1,5 +1,6 @@
 # Dynamic Website Deployment on AWS Using Terraform
 
+<img width="1896" height="938" alt="image" src="https://github.com/user-attachments/assets/b1495d1e-e86b-4421-9c0d-855c3ae13d60" />
 
 ![Alt text](Terraform-Ecommerce-Architecture.jpg)
 
